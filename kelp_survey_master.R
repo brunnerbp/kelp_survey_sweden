@@ -11,5 +11,8 @@ if(!dir.exists("raw_data")){
 source("1_cleaning_script.R")
 
 #2- Homogenising species names (i.e. from algaebase or WORMs)
+source("2_species_names_traits.R") #todo
+
 
 #3- Data analysis
+source("3_analysis.R")
